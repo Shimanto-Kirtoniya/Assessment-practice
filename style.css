@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    margin: 0px;
+    
+}
+.Top-banner{
+    background-image:linear-gradient(rgba(0, 0, 0, 0),rgba(45, 64, 131, 0.701)), url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 730px;
+    color: white;
+}
+.top-text{
+    width: 50%;
+    position: absolute;
+    left: 370px;
+    top: 80px;
+}
+.top-text h1{
+    font-size: 60px;
+    text-align: center
+}
+.top-text p{
+    font-size: 25px;
+    text-align: center
+}
+.submit-button{
+    padding: 10px 30px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 320px;
+    top: 50px;
+    text-decoration: none;
+}
+.Amount-submit{
+    padding: 10px 30px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    position: absolute;
+    top: 120px;
+    left: 245px;
+}
+.Donate-today{
+    width: 1379px;
+    height: 720px;
+    position: relative;
+}
+.donate-text{
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    top: 40px;
+}
+.donate-text h1{
+    font-size: 50px;
+}
+.donate-text p{
+    font-size: 25px;
+}
+.Amount{
+    width: 50%;
+    height: 120px;
+    position: absolute;
+    top: 265px;
+    left: 30%;
+}
+.amount-button{
+    padding: 30px 10px;
+    margin: 5px;
+    border: 2px solid tomato;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    left: 5px;
+}
+.amount-button:hover{
+    background-color: rgba(255, 99, 71, 0.099);
+    border: 4px solid tomato;
+    color: tomato;
+    font-weight: 700;
+    transition: 1.5s;
+}
+.Donation-area{
+    width: 50%;
+    height: 100px;
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    top: 445px;
+    font-size: 25px;
+    font-weight: 700;
+}
+.donate-now-button{
+    padding: 10px 30px;
+    font-size: 25px;
+    font-weight: 700;
+    background-color: tomato;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    left: 10px;
+    top: 50px;
+    text-decoration: none;
+}
+.Donate-plan{
+    width: 1379px;
+    height: 700px;
+    position: relative;
+}
+.plan-area{
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    left: 30%;
+}
+.plan-area h1{
+    font-size: 50px;
+}
+.plan-area p{
+    font-size: 20px;
+}
+.plan-blog{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    position: absolute;
+    top: 240px;
+    left: 210px;
+}
+.plan{
+    height: 290px;
+    width: 80%;
+    margin: 15px;
+    padding: 40px;
+    background-color: rgba(255, 99, 71, 0.152);
+    box-shadow: -5px 4px 30px grey;
+}
+.plan:hover{
+    background-color: rgba(250, 139, 120, 0.371);
+    font-size: 20px;
+    font-weight: 700;
+    transition: .5s;
+}
+
+.contribute{
+    width: 1379px;
+    height: 400px;
+    position: relative;
+    left: 140px;
+    top: 35px;
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 60%;
+    height: 80%;
+    border-radius: 5px;
+}
+.contribute-text{
+    position: absolute;
+    top: 10px;
+    width: 50%;
+}
+.contribute-text h2{
+    font-size: 40px;
+}
+.contribute-text p{
+    font-size: 20px;
+    width: 55%;
+}
+.contribute-two{
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    width: 50%;
+}
+.contribute-two h2{
+    font-size: 40px;
+}
+.contribute-two p{
+    font-size: 20px;
+    width: 55%;
+}
+.Update-area{
+    width: 1379px;
+    height: 650px;
+    position: relative;
+
+}
+.update{
+    width: 50%;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    left: 30%;
+}
+.update h1{
+    font-size: 50px;
+}
+.update p{
+    font-size: 20px;
+}
+.Box{
+    width: 50%;
+    height: 200px;
+
+    position: absolute;
+    top: 250px;
+    left: 30%;
+background-color: beige;
+}
+.box-contain{
+    width: 350px;
+    position: relative;
+    top: 80px;
+    left: 180px;
+}
+.email{
+    padding: 10px 30px;
+    border: none;
+    font-size: 15px;
+    background-color: rgb(227, 227, 231);
+    border-radius: 5px 0px 0px 5px;
+}
+.submit{
+    padding: 10px 30px;
+    border: none;
+    font-size: 15px;
+    background-color: tomato;
+    margin-left: -4px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.footer{
+    width: 100%;
+    background-color: whitesmoke;
+    height: 200px;
+}
+.footer:hover{
+    background-color: black;
+    transition: 1.5s;
+}
+
+.footer-contain{
+    color: white;
+    width: 50%;
+    left: 24%;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+.footer-contain h1{
+   color: whitesmoke;
+   font-family: 'Lobster', cursive;
+}
+.footer-contain h1:hover{
+    color: tomato;
+    transition: 1.5s;
+}
